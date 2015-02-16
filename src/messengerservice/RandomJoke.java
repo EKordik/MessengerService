@@ -10,11 +10,15 @@ import javax.swing.JOptionPane;
 
 /**
  * RandomJoke is a low-level class that implements the Messageable interface.
- * This class has a string array of jokes. WHen the getMessage is called it 
- * returns a random joke from the array using an Random number to generate a 
- * random number that acts as the index for the joke.
+ * The getMessage method returns a random joke from an String array using a 
+ * randomly generated number. The setMessage method accepts a String argument
+ * and adds that String to the joke array as long as there is still room in the 
+ * array. If not it will return an message stating that no more jokes can be
+ * stored. 
+ * The constructor puts to jokes into the array so that there is something to 
+ * pull from even if no input is put in.
  * 
- * @author ekordik
+ * @author Emma Kordik
  * @version 1.00
  */
 public class RandomJoke implements Messageable {

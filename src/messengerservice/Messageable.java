@@ -10,7 +10,7 @@ package messengerservice;
  * Each low level message strategy class must have a get message method which 
  * returns a string literal.
  * 
- * @author ekordik
+ * @author Emma Kordik
  * @version 1.00
  */
 public interface Messageable {

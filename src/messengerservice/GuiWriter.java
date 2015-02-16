@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
  * This class implements the Writer interface and displays a message in a GUI
  * Pane.
  * 
- * @author emmakordik
+ * @author Emma Kordik
  * @version 1.00
  */
 public class GuiWriter implements Writer{

@@ -7,7 +7,7 @@ package messengerservice;
 
 /**
  * This message Service class is a high level class that interacts with an 
- * abstraction of a messageable interface.
+ * abstraction of a Messageable interface.
  * The purpose of this class is to return a message when it is asked for. It has
  * two constructors. One that accepts a message strategy and assigns it to the
  * variable messenger which is of data type Messageable. The other is a default
@@ -16,7 +16,7 @@ package messengerservice;
  * it to the messenger variable. There is also a getMessage method that returns
  * a message to the user.
  * 
- * @author ekordik
+ * @author Emma Kordik
  * @version 1.00
  */
 public class MessageService {

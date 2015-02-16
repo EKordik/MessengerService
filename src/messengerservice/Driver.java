@@ -10,7 +10,8 @@ package messengerservice;
  * It requires that a MessageService object be created. When that message is 
  * created you can either send an message strategy to the constructor or else
  * assign a message strategy later using the setMessenger method.
- * @author ekordik
+ * 
+ * @author Emma Kordik
  * @version 1.00
  */
 public class Driver {
