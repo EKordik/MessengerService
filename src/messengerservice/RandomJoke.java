@@ -22,7 +22,7 @@ import javax.swing.JOptionPane;
  * @version 1.00
  */
 public class RandomJoke implements Messageable {
-    private String[] joke = new String[30];
+    private String[] joke = new String[3];
     private int jokeIndex; //Variable to store the index of Jokes for entering new jokes
     private Random  randomNumbers = new Random();
     private int index;
@@ -43,7 +43,7 @@ public class RandomJoke implements Messageable {
     //sets jokes
     @Override
     public void setMessage(String message) {
-        if(jokeIndex < 30 ){
+        if(jokeIndex < 3 ){
             joke[jokeIndex] = message;
             jokeIndex++;
         }

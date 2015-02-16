@@ -16,11 +16,11 @@ package messengerservice;
  * @author Emma Kordik
  * @version 1.00
  */
-public class WarnMessage implements Messageable {
+public class WarningMessage implements Messageable {
     private String message;
     
     //Constructor
-    public WarnMessage(){
+    public WarningMessage(){
         message = "Warning: You entered no message!";
     }
     

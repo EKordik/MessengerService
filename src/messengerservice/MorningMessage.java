@@ -15,11 +15,11 @@ package messengerservice;
  * @author Emma Kordik
  * @version 1.00
  */
-public class GoodMorningMess implements Messageable{
+public class MorningMessage implements Messageable{
     private String message;
     
     //Constructor provides a default message of good morning in case no other message is provide
-    public GoodMorningMess(){
+    public MorningMessage(){
         message="Good Morning!"; 
     }
     
